@@ -1,0 +1,73 @@
+.login
+{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 300px;
+    height: 150px;
+
+    background-color: rgba(10, 10, 5, 0.5);
+    margin: auto auto;  
+    padding: 40px;
+  
+    border-radius: 4px;
+   
+}
+
+fieldset
+{
+    width: 300px
+
+}
+
+legend 
+{
+  padding: 0.2em 0.5em;
+  color: gray;
+  font-size:120%;
+  text-align:center;
+  position: relative;
+}
+
+
+legend:before 
+{
+  position: absolute;
+  content: '';
+  height: 8px;
+  border-left: 1px solid gray;
+  left: 0px;
+  top: 7px;
+}
+
+legend:after 
+{
+  position: absolute;
+  content: '';
+  height: 8px;
+  border-right: 1px solid gray;
+  right: 0px;
+  top: 7px;
+}
+
+    
+.info
+{
+    border: 3px solid black;
+    width: 400px;
+}
+
+.price
+{
+    border: 3px solid black;
+    margin-top: 10px;
+    width: 400px;
+}
+
+
+input[type=submit],
+input[type=button],
+button
+{
+  cursor: pointer;
+}
+
